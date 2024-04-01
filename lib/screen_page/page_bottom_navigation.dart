@@ -2,6 +2,7 @@ import 'package:cobadulu/screen_page/page_column.dart';
 import 'package:cobadulu/screen_page/page_custome_grid.dart';
 import 'package:cobadulu/screen_page/page_form_register.dart';
 import 'package:cobadulu/screen_page/page_passing_data.dart';
+import 'package:cobadulu/screen_page/page_search_list.dart';
 import 'package:flutter/material.dart';
 
 class PageBottomNavigationBar extends StatefulWidget {
@@ -31,7 +32,7 @@ class _PageBottomNavigationBarState extends State<PageBottomNavigationBar> with
         children: const[
           FormRegister(),
           PageCustomeGrid(),
-          PageColumnRow(),
+          PageSearchList(),
         ],
       ),
 
